@@ -6,7 +6,10 @@ int main()
   float x,a,b,res;
   printf("enter the values of a  and b \n");
   scanf("%f%f",&a,&b);
-  printf(" enter 1 to add \n enter 2 to sub \n enter 3 to mul \n enter 4 to div \n");
+  printf("enter 1 to add \n");
+  printf("enter 2 to sub \n");
+  printf("enter 3 to mul \n);
+  printf("enter 4 to div \n");
   scanf("%f",&x);
   if (x==1)
     res = a+b;
